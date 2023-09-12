@@ -10,12 +10,6 @@ const loadHTML = (request, response, page) => {
   response.end();
 };
 
-// const getIndex = (request, response) => {
-//     response.writeHead(200, { 'Content-Type': 'text/html' });
-//     response.write(index);
-//     response.end();
-// };
-
 const getIndex = (request, response) => {
   loadHTML(request, response, index);
 };
